@@ -1,0 +1,93 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<header id="header">
+  
+  <img id="header-img" src="https://logofaves.com/wp-content/uploads/2013/04/chair_m.jpg" 
+         alt="chair logo"
+         width="125px">
+  <nav id="nav-bar">
+    <a class="nav-link" href="#vid">Video</a>
+    <a class="nav-link" href="#features">Features</a>
+    <a class="nav-link" href="#models">Models</a>
+    <a class="nav-link" href="#form-box">Follow Us</a>
+  </nav>
+  
+</header>
+
+<body>
+  
+  
+ <div id="content">
+  <section id="vid">
+      <iframe id="video"              
+              src="https://www.youtube.com/embed/4nkdl1iqKQA"
+              width="700px"
+              height="415px">
+      </iframe>
+  </section>
+   
+   
+  <section id="features">
+   <div class="feat">
+      <h2>Durable</h2>
+      <p class="desc">This chair is made with quality materials and crafted with quality worksmanship</p>
+   </div>
+     <div class="feat">
+      <h2>Comfortable</h2>
+      <p class="desc">You'll never want to sit in a different chair after sitting in this one!</p>
+   </div>
+   <div class="feat">
+      <h2>Lifetime Warranty</h2>
+      <p class="desc">In the rare chance that something breaks, you'll have a lifetime guarantee for a brand new one</p>
+  </div>
+  </section>
+
+   
+   <section id="models"> 
+      <div class="model">
+        <h2>B-Class</h2>
+        <ul class="bullets">
+          <li>Standard Quality</li>
+          <li>Standard Material</li>
+          <li>Standard Comfort</li>
+        </ul>
+        <h3 class="price">$49.95</h3>
+        <button class="buy-now">Buy Now</button>
+     </div>
+     <div class="model">
+       <h2>A-Class</h2>
+       <ul class="bullets">
+          <li>Great Quality</li>
+          <li>Great Material</li>
+          <li>Great Comfort</li>
+        </ul>
+        <h3 class="price">$74.95</h3>
+       <button class="buy-now">Buy Now</button>
+     </div>
+     <div class="model">
+       <h2>S-Class</h2>
+       <ul class="bullets">
+          <li>Best Quality</li>
+          <li>Best Material</li>
+          <li>Best Comfort</li>
+        </ul>
+        <h3 class="price">$99.95</h3>
+       <button class="buy-now">Buy Now</button>
+     </div>
+   </section>
+   
+   
+   
+   
+  <section id="form-box">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <h2>Follow Us for Updates!</h2>
+      <p>Enter your e-mail below to be the first to get notified about our future products!</p>
+      <input type="email" id="email" placeholder="E-mail" name="email">
+      <input type="submit" id="submit">
+    </div>
+  </section>
+   
+ </div>
+</body>
+
