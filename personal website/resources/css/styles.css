@@ -1,0 +1,90 @@
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: #1c2c3d;
+    color: #04d9ff;
+
+}
+
+/* nav-bar */
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #394857;
+    opacity: 0.7;
+}
+
+.logo {
+    margin-left: 40px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+}
+
+.nav-links {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* home page */
+
+.home-background {
+    background-image: url('../images/keyboard.jpg');
+    min-height: 100%;
+
+    /*scales and positions the photo */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+
+
+
+/* footer */
+
+.footer {
+    background-color: #394857;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 24%;
+    position: relative;
+    left: 39%;
+}
+
+.social-link {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 35px;
+    color: black;
+}
+
+footer h5 {
+    font-size: 20px;
+}
